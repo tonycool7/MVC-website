@@ -1,0 +1,47 @@
+
+*{
+	/*border: 1px solid red;*/
+}
+
+.top{
+	background-color: #54779c;
+	color: white;
+}
+.side-menu{
+	background-color: #eef0f2;
+	height: 100vh;
+	padding: 0;
+}
+
+.highlight{
+	background-color: #4ab0ce;
+}
+
+.side-menu div{
+	border: 1px solid #54779c;
+	cursor: pointer;
+	text-align: center;
+	/*padding: 0;*/
+}
+
+.side-menu a{
+	text-decoration: none;
+}
+
+.footer{
+	background-color: #e9edf1;
+}
+
+.create_article textarea{
+	height: 400px;
+}
+
+.add_category, .edit_category, .add_article, .edit_article{
+	display: none;
+	height: 0pc;
+}
+
+
+.add_category:hover, .edit_category:hover, .add_article:hover, .edit_article:hover{
+	background-color: #24f924;
+}
